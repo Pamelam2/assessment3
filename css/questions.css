@@ -2,23 +2,23 @@
     Q1 - Write a media query for desktop first.  The break point needs to be at 960px;
 */
 
-
-
+@media screen and (max-width:960px){};
 
 
 /*
     Q2 - Write a media query for mobile first.  The break point needs to be at 720px;
 */
 
-
+@media screen and (min-width:720px){};
 
 
 /*
     Q3 - What CSS property are you having the most trouble figuring out?
 */
-
+Display: inline-block;  Should I use width with it every time? It may also be that, when I want to use it, preceeding it there's embedded media that uses float, so I should probably get in the habit of clearing the floats before using display.
 
 /*
     Q4 - What is the best CSS property and why?
 */
 
+There isn't a best. CSS is like a puzzle where all of the pieces work together to make a pretty picture. 

@@ -2,21 +2,24 @@
     Convert this code to more efficient SCSS pattern
     Things to use: Nesting, variables and parent selector
 */
-.book .book-title {
-    color: #a00;
-    margin-bottom: 10px;
-}
 
-.book .book-body {
-    color: #a00;
-    margin-bottom: 10px;
-}
+$red:#a00;
 
-.book .btn {
-    background: #a00;
-    color: #fff;
-}
+.book{
+    .book-title {
+        color: $red;
+        margin-bottom: 10px;
+    }
+    .book-body {
+        color: $red;
+        margin-bottom: 10px;
+    }
+    .btn {
+        background: $red;
+        color: #fff;
+    }
+    .btn:hover {
+        background: #440000;
+    }
+} 
 
-.book .btn:hover {
-    background: #440000;
-}
